@@ -13,16 +13,26 @@ section {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;    
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
 }
 
 .container-fluid {
     padding: 0;
 }
 
+
 /* Navbar Style*/
+
+.row {
+    width: 100%;
+}
 
 .navbar__transparent {
     background: transparent;
@@ -31,21 +41,21 @@ section {
 }
 
 .navbar-li__links {
-    color: rgb(255, 255, 255);
-    // margin-right: 40px;
+    color: rgb(255, 255, 255); // margin-right: 40px;
     font-size: 24px;
 }
 
-.navbar__brand{    
+.navbar__brand {
     color: white;
     font-size: 24px;
-    margin-top: 2px; 
+    margin-top: 2px;
 }
+
 
 /* Section style */
 
-.section__img {    
-    background-repeat: no-repeat;  
+.section__img {
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -53,14 +63,15 @@ section {
     position: absolute;
     right: 0;
     top: 0;
-    filter: blur(2px);
     z-index: -1;
 }
+
 
 /* Section backgrounds*/
 
 .section1__img {
     background-image: url("img/home.png");
+    filter: blur(2px);
 }
 
 .section2__img {
@@ -83,22 +94,36 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;    
+    flex-direction: column;
 }
+
+.profile-animation {
+    animation: fadeIn 5s;
+}
+
 
 /* Section 2 style*/
 
 .section2__div {
-    width: 400px;
-    height: 400px;
-    margin: 150px;
+    width: 450px;
+    height: 450px;
+    padding: 25px;
 }
 
-.section2__text{
+.section2__text {
     color: rgb(255, 251, 219);
     text-align: center;
     font-size: 1.4rem;
 }
+
+.social-icons {
+    margin-left: 1rem;
+}
+
+.social-icons:hover {
+    animation: rubberBand 2s;
+}
+
 
 /* Section 3 style*/
 
@@ -108,13 +133,16 @@ section {
     margin: 150px;
 }
 
-.section3__text{
+.section3__text {
     color: rgb(255, 251, 219);
     text-align: justify;
 }
 
+
 /* Section 4 style*/
 
+
 /* Section 5 style*/
+
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBZTtFQUNmLCtGQUErRjtFQUMvRiw2QkFBNkIsRUFBRSIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBoZWlnaHQ6IDIwMDBweDtcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiaHR0cHM6Ly9jZG4taW1hZ2VzLTEubWVkaXVtLmNvbS9tYXgvMjAwMC8xKlplaXhNMk9DeXlfeFVFS01uU3BfYlEucG5nXCIpO1xuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0OyB9XG4iXX0= */
