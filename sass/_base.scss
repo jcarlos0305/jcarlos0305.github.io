@@ -233,9 +233,10 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 40vh;
+    height: 43vh;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 .contact__title {
@@ -258,6 +259,7 @@ li {
 
 .contact__info {
     width: 400px;
+    margin-bottom: 5px; 
 }
 
 .contact__icon {
