@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 section {
@@ -16,12 +16,13 @@ section {
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px 0;
 }
 
 h2,
 h3,
 p {
-    color: rgb(255, 251, 219);
+    color: #ffffff;
 }
 
 .main__section {
@@ -74,7 +75,7 @@ a {
 
 /* Section style */
 
-.section__img {
+.section__style {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -95,19 +96,19 @@ a {
 }
 
 .section2__img {
-    background-color: rgb(56, 59, 59);
+    background-color: #202325;
 }
 
 .section3__img {
-    background-color: rgb(56, 59, 59);
+    background-color: #181a1b;
 }
 
 .section4__img {
-    background-color: rgb(56, 59, 59);
+    background-color: #202325;
 }
 
 .section5__img {
-    background-color: rgb(56, 59, 59);
+    background-color: #181a1b;
 }
 
 .profile-container {
@@ -118,7 +119,7 @@ a {
 }
 
 .profile-animation {
-    animation: fadeIn 5s;
+    animation: fadeIn 3s;
 }
 
 .info__container {

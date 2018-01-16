@@ -9,7 +9,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#link1").click(function () {
         $('html, body').animate({
-            scrollTop: $(".section2__img").offset().top
+            scrollTop: $("#about-section").offset().top
         }, 1000);
     });
 });
@@ -17,7 +17,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#link2").click(function () {
         $('html, body').animate({
-            scrollTop: $(".section3__img").offset().top
+            scrollTop: $("#education-section").offset().top
         }, 1000);
     });
 });
@@ -25,7 +25,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#link3").click(function () {
         $('html, body').animate({
-            scrollTop: $(".section4__img").offset().top
+            scrollTop: $("#skills-section").offset().top
         }, 1000);
     });
 });
@@ -33,7 +33,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#link4").click(function () {
         $('html, body').animate({
-            scrollTop: $(".section5__img").offset().top
+            scrollTop: $(".contact__section").offset().top
         }, 1000);
     });
 });
