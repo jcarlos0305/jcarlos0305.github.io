@@ -16,7 +16,7 @@ section {
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 h2,
@@ -224,6 +224,15 @@ a {
     margin-top: 90px;
 }
 
+.skills__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills__subtitle {
+    text-align: center;
+}
+
 
 /* Section 5 style*/
 
@@ -236,7 +245,6 @@ a {
     height: 43vh;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
 }
 
 .contact__title {
